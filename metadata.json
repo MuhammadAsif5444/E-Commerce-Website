@@ -1,0 +1,6 @@
+{
+  "name": "ShopNest",
+  "description": "Modern multi-vendor e-commerce platform featuring customer shopping, seller hub, admin dashboard, smart recommendations, and AI assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

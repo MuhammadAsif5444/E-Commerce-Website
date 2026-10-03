@@ -1,0 +1,68 @@
+import { Review } from '../types';
+
+export const INITIAL_REVIEWS: Record<string, Review[]> = {
+  'prod-el-1': [
+    {
+      id: 'rev-1',
+      userId: 'user-sarah',
+      userName: 'Sarah Jenkins',
+      userAvatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80',
+      rating: 5,
+      title: 'Best ANC headphones I have ever owned! Exceptional battery.',
+      comment: 'The noise cancellation completely blocks out the subway commute drone. Sound stage is wide and crisp without muddy bass. Charged it once two weeks ago and it is still going strong. Highly recommended!',
+      date: '2026-02-18',
+      verifiedPurchase: true,
+      helpfulCount: 42,
+    },
+    {
+      id: 'rev-2',
+      userId: 'user-marcus',
+      userName: 'Marcus Vance',
+      userAvatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80',
+      rating: 5,
+      title: 'Superior comfort for all-day office zoom calls',
+      comment: 'Super soft memory foam ear cups do not pinch my glasses frames at all. Microphone picks up voice clearly even in a lively open-plan room.',
+      date: '2026-02-10',
+      verifiedPurchase: true,
+      helpfulCount: 19,
+    },
+    {
+      id: 'rev-3',
+      userId: 'user-elena',
+      userName: 'Elena Rostova',
+      rating: 4,
+      title: 'Great acoustic depth, companion app could be faster',
+      comment: 'Hardware quality is genuinely premium with aluminum pivots. The sound tuning is fantastic. The mobile equalizer app works fine but took a moment to sync initially.',
+      date: '2026-01-28',
+      verifiedPurchase: true,
+      helpfulCount: 8,
+    },
+  ],
+  'prod-el-2': [
+    {
+      id: 'rev-4',
+      userId: 'user-devon',
+      userName: 'Devon Lee',
+      userAvatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&q=80',
+      rating: 5,
+      title: 'OLED screen is mind-blowing for creative work and coding',
+      comment: 'The 2.8K 120Hz panel is so vibrant and sharp. Compiling large TypeScript projects is lightning fast with the Core Ultra 7 processor. Fan remains whisper quiet under load.',
+      date: '2026-02-15',
+      verifiedPurchase: true,
+      helpfulCount: 31,
+    },
+  ],
+  'prod-hl-1': [
+    {
+      id: 'rev-5',
+      userId: 'user-clara',
+      userName: 'Clara Oswald',
+      rating: 5,
+      title: 'Minimalist perfection for my nightstand',
+      comment: 'The touch dimmer feels weighted and luxurious. The built-in wireless charging pad fast-charges my phone overnight without bright blinking LEDs. Love it.',
+      date: '2026-02-01',
+      verifiedPurchase: true,
+      helpfulCount: 27,
+    },
+  ],
+};
